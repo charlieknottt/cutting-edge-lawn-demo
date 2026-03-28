@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cutting Edge Lawn Service, LLC provides professional landscape design, installation, maintenance, irrigation, hardscapes, and weed control in Auburn, AL. Over 20 years of experience.">
+    <title>Cutting Edge Lawn Service | Professional Landscaping - Auburn, AL</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Work+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <img src="images/logo.png" alt="Cutting Edge Lawn Service">
+            </a>
+            <ul class="nav-menu">
+                <li><a href="pages/about.html" class="nav-link">About</a></li>
+                <li class="nav-dropdown">
+                    <a href="pages/services.html" class="nav-link">Services</a>
+                    <div class="dropdown-menu">
+                        <a href="pages/services.html#design">Landscape Design</a>
+                        <a href="pages/services.html#installation">Landscape Installation</a>
+                        <a href="pages/services.html#maintenance">Lawn Maintenance</a>
+                        <a href="pages/services.html#hardscapes">Hardscapes &amp; Water Features</a>
+                        <a href="pages/services.html#irrigation">Irrigation &amp; Drainage</a>
+                        <a href="pages/services.html#weedcontrol">Weed Control &amp; Fertilization</a>
+                    </div>
+                </li>
+                <li><a href="pages/contact.html" class="btn btn-primary">Get a Quote</a></li>
+            </ul>
+            <div class="nav-toggle">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero" style="position:relative;min-height:100vh;display:flex;align-items:center;overflow:hidden;">
+        <div style="position:absolute;inset:0;z-index:0;">
+            <img src="images/portfolio-residential.jpg" alt="Cutting Edge Lawn Service project" style="width:100%;height:100%;object-fit:cover;">
+        </div>
+        <div class="hero-photo-overlay"></div>
+        <div class="hero-content" style="position:relative;z-index:2;max-width:780px;margin:0 auto;text-align:center;padding:0 20px;">
+            <p class="hero-subtitle" style="color:var(--gold);margin-bottom:16px;">Auburn, AL &middot; 20+ Years of Service</p>
+            <h1 class="hero-title" style="font-size:clamp(2.6rem, 5.5vw, 4.8rem);color:#fff;margin-bottom:24px;">Your Entire Landscape.<br>One Trusted Partner.</h1>
+            <p style="font-family:'Work Sans',sans-serif;font-size:1.05rem;color:rgba(255,255,255,0.8);max-width:540px;margin:0 auto 36px;line-height:1.7;">From custom design and installation to ongoing maintenance, we do it all. Residential, commercial, and industrial properties across East Alabama.</p>
+            <div style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap;">
+                <a href="pages/contact.html" class="btn btn-primary" style="padding:16px 36px;font-size:0.95rem;">Get a Free Quote</a>
+                <a href="pages/services.html" class="btn btn-outline" style="padding:16px 36px;font-size:0.95rem;">Our Services</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats -->
+    <section style="padding:60px 0;background:#141a12;">
+        <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:32px;max-width:1000px;margin:0 auto;padding:0 20px;text-align:center;" class="reveal">
+            <div>
+                <div class="stat-number" data-target="20" data-suffix="+" style="font-size:2.8rem;color:#4fb878;">0</div>
+                <div style="color:rgba(255,255,255,0.6);font-size:0.8rem;text-transform:uppercase;letter-spacing:0.1em;margin-top:8px;">Years Experience</div>
+            </div>
+            <div>
+                <div class="stat-number" data-target="1000" data-suffix="+" style="font-size:2.8rem;color:#4fb878;">0</div>
+                <div style="color:rgba(255,255,255,0.6);font-size:0.8rem;text-transform:uppercase;letter-spacing:0.1em;margin-top:8px;">Happy Clients</div>
+            </div>
+            <div>
+                <div class="stat-number" data-target="6" data-suffix="" style="font-size:2.8rem;color:#4fb878;">0</div>
+                <div style="color:rgba(255,255,255,0.6);font-size:0.8rem;text-transform:uppercase;letter-spacing:0.1em;margin-top:8px;">Core Services</div>
+            </div>
+            <div>
+                <div class="stat-number" data-target="13" data-suffix="" style="font-size:2.8rem;color:#4fb878;">0</div>
+                <div style="color:rgba(255,255,255,0.6);font-size:0.8rem;text-transform:uppercase;letter-spacing:0.1em;margin-top:8px;">Team Members</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Grid (6 items, NO featured, fills 2 rows of 3 perfectly) -->
+    <section class="section" style="padding:100px 0;background:#f8f9fa;">
+        <div class="container">
+            <div style="text-align:center;margin-bottom:60px;" class="reveal">
+                <p style="color:#d4a843;font-size:0.8rem;text-transform:uppercase;letter-spacing:0.15em;margin-bottom:12px;">What We Do</p>
+                <h2 class="section-title" style="font-family:'Josefin Slab',serif;font-size:2.4rem;color:#141a12;">Our Services</h2>
+            </div>
+            <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:20px;max-width:1200px;margin:0 auto;padding:0 20px;">
+                <div class="reveal stagger-1" style="border-radius:14px;overflow:hidden;position:relative;min-height:280px;display:flex;flex-direction:column;justify-content:flex-end;padding:28px;">
+                    <img src="images/service-1-design.jpg" alt="Landscape Design" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0;">
+                    <div style="position:absolute;inset:0;background:linear-gradient(to top, rgba(20,26,18,0.9) 0%, rgba(20,26,18,0.3) 60%, transparent 100%);z-index:1;"></div>
+                    <div style="position:relative;z-index:2;color:#fff;">
+                        <h3 style="font-family:'Josefin Slab',serif;font-size:1.3rem;margin-bottom:6px;color:#fff;">Landscape Design</h3>
+                        <p style="font-size:0.85rem;opacity:0.8;line-height:1.5;">Full-color detailed drawings with plant and hardscape recommendations.</p>
+                    </div>
+                </div>
+                <div class="reveal stagger-2" style="border-radius:14px;overflow:hidden;position:relative;min-height:280px;display:flex;flex-direction:column;justify-content:flex-end;padding:28px;">
+                    <img src="images/service-2-installation.jpg" alt="Landscape Installation" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0;">
+                    <div style="position:absolute;inset:0;background:linear-gradient(to top, rgba(20,26,18,0.9) 0%, rgba(20,26,18,0.3) 60%, transparent 100%);z-index:1;"></div>
+                    <div style="position:relative;z-index:2;color:#fff;">
+                        <h3 style="font-family:'Josefin Slab',serif;font-size:1.3rem;margin-bottom:6px;color:#fff;">Landscape Installation</h3>
+                        <p style="font-size:0.85rem;opacity:0.8;line-height:1.5;">Sod, trees, shrubs, irrigation, hardscapes, and drainage systems.</p>
+                    </div>
+                </div>
+                <div class="reveal stagger-3" style="border-radius:14px;overflow:hidden;position:relative;min-height:280px;display:flex;flex-direction:column;justify-content:flex-end;padding:28px;">
+                    <img src="images/service-3-maintenance.jpg" alt="Lawn Maintenance" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0;">
+                    <div style="position:absolute;inset:0;background:linear-gradient(to top, rgba(20,26,18,0.9) 0%, rgba(20,26,18,0.3) 60%, transparent 100%);z-index:1;"></div>
+                    <div style="position:relative;z-index:2;color:#fff;">
+                        <h3 style="font-family:'Josefin Slab',serif;font-size:1.3rem;margin-bottom:6px;color:#fff;">Lawn Maintenance</h3>
+                        <p style="font-size:0.85rem;opacity:0.8;line-height:1.5;">Ongoing care with multiple crews and professional-grade equipment.</p>
+                    </div>
+                </div>
+                <div class="reveal stagger-1" style="border-radius:14px;overflow:hidden;position:relative;min-height:280px;display:flex;flex-direction:column;justify-content:flex-end;padding:28px;">
+                    <img src="images/service-5-hardscapes.jpg" alt="Hardscapes & Water Features" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0;">
+                    <div style="position:absolute;inset:0;background:linear-gradient(to top, rgba(20,26,18,0.9) 0%, rgba(20,26,18,0.3) 60%, transparent 100%);z-index:1;"></div>
+                    <div style="position:relative;z-index:2;color:#fff;">
+                        <h3 style="font-family:'Josefin Slab',serif;font-size:1.3rem;margin-bottom:6px;color:#fff;">Hardscapes &amp; Water Features</h3>
+                        <p style="font-size:0.85rem;opacity:0.8;line-height:1.5;">Patios, walkways, retaining walls, fire pits, and fountains.</p>
+                    </div>
+                </div>
+                <div class="reveal stagger-2" style="border-radius:14px;overflow:hidden;position:relative;min-height:280px;display:flex;flex-direction:column;justify-content:flex-end;padding:28px;">
+                    <img src="images/service-6-irrigation.jpg" alt="Irrigation & Drainage" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0;">
+                    <div style="position:absolute;inset:0;background:linear-gradient(to top, rgba(20,26,18,0.9) 0%, rgba(20,26,18,0.3) 60%, transparent 100%);z-index:1;"></div>
+                    <div style="position:relative;z-index:2;color:#fff;">
+                        <h3 style="font-family:'Josefin Slab',serif;font-size:1.3rem;margin-bottom:6px;color:#fff;">Irrigation &amp; Drainage</h3>
+                        <p style="font-size:0.85rem;opacity:0.8;line-height:1.5;">Professional system design and drainage solutions for every property.</p>
+                    </div>
+                </div>
+                <div class="reveal stagger-3" style="border-radius:14px;overflow:hidden;position:relative;min-height:280px;display:flex;flex-direction:column;justify-content:flex-end;padding:28px;">
+                    <img src="images/service-4-weedcontrol.jpg" alt="Weed Control & Fertilization" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0;">
+                    <div style="position:absolute;inset:0;background:linear-gradient(to top, rgba(20,26,18,0.9) 0%, rgba(20,26,18,0.3) 60%, transparent 100%);z-index:1;"></div>
+                    <div style="position:relative;z-index:2;color:#fff;">
+                        <h3 style="font-family:'Josefin Slab',serif;font-size:1.3rem;margin-bottom:6px;color:#fff;">Weed Control &amp; Fertilization</h3>
+                        <p style="font-size:0.85rem;opacity:0.8;line-height:1.5;">Specialized treatments for a healthy, weed-free lawn year round.</p>
+                    </div>
+                </div>
+            </div>
+            <div style="text-align:center;margin-top:48px;" class="reveal">
+                <a href="pages/services.html" class="btn btn-primary" style="padding:16px 36px;">View All Services</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Carousel -->
+    <section style="padding:100px 0;background:#141a12;overflow:hidden;">
+        <div style="text-align:center;margin-bottom:60px;padding:0 20px;" class="reveal">
+            <p style="color:#d4a843;font-size:0.8rem;text-transform:uppercase;letter-spacing:0.15em;margin-bottom:12px;">Our Work</p>
+            <h2 style="font-family:'Josefin Slab',serif;font-size:2.4rem;color:#fff;">Recent Projects</h2>
+            <div style="width:50px;height:3px;background:#d4a843;margin:14px auto 0;"></div>
+        </div>
+        <div class="carousel-track" style="display:flex;gap:20px;animation:scroll 50s linear infinite;width:max-content;">
+            <div class="carousel-card" style="min-width:340px;height:260px;flex-shrink:0;"><img src="images/portfolio-residential.jpg" alt="Residential installation" style="width:100%;height:100%;object-fit:cover;"></div>
+            <div class="carousel-card" style="min-width:340px;height:260px;flex-shrink:0;"><img src="images/portfolio-commercial.jpg" alt="Commercial project" style="width:100%;height:100%;object-fit:cover;"></div>
+            <div class="carousel-card" style="min-width:340px;height:260px;flex-shrink:0;"><img src="images/portfolio-patio.jpg" alt="Patio installation" style="width:100%;height:100%;object-fit:cover;"></div>
+            <div class="carousel-card" style="min-width:340px;height:260px;flex-shrink:0;"><img src="images/portfolio-retaining-wall.jpg" alt="Retaining wall" style="width:100%;height:100%;object-fit:cover;"></div>
+            <div class="carousel-card" style="min-width:340px;height:260px;flex-shrink:0;"><img src="images/portfolio-firepit.jpg" alt="Fire pit" style="width:100%;height:100%;object-fit:cover;"></div>
+            <div class="carousel-card" style="min-width:340px;height:260px;flex-shrink:0;"><img src="images/portfolio-waterfeature.jpg" alt="Water feature" style="width:100%;height:100%;object-fit:cover;"></div>
+            <div class="carousel-card" style="min-width:340px;height:260px;flex-shrink:0;"><img src="images/portfolio-lighting.jpg" alt="Landscape lighting" style="width:100%;height:100%;object-fit:cover;"></div>
+            <div class="carousel-card" style="min-width:340px;height:260px;flex-shrink:0;"><img src="images/portfolio-enhancements.jpg" alt="Landscape enhancements" style="width:100%;height:100%;object-fit:cover;"></div>
+            <div class="carousel-card" style="min-width:340px;height:260px;flex-shrink:0;"><img src="images/portfolio-industrial.jpg" alt="Industrial landscaping" style="width:100%;height:100%;object-fit:cover;"></div>
+            <div class="carousel-card" style="min-width:340px;height:260px;flex-shrink:0;"><img src="images/portfolio-reitz.jpg" alt="Completed project" style="width:100%;height:100%;object-fit:cover;"></div>
+            <!-- Duplicate set for seamless scroll -->
+            <div class="carousel-card" style="min-width:340px;height:260px;flex-shrink:0;"><img src="images/portfolio-residential.jpg" alt="Residential installation" style="width:100%;height:100%;object-fit:cover;"></div>
+            <div class="carousel-card" style="min-width:340px;height:260px;flex-shrink:0;"><img src="images/portfolio-commercial.jpg" alt="Commercial project" style="width:100%;height:100%;object-fit:cover;"></div>
+            <div class="carousel-card" style="min-width:340px;height:260px;flex-shrink:0;"><img src="images/portfolio-patio.jpg" alt="Patio installation" style="width:100%;height:100%;object-fit:cover;"></div>
+            <div class="carousel-card" style="min-width:340px;height:260px;flex-shrink:0;"><img src="images/portfolio-retaining-wall.jpg" alt="Retaining wall" style="width:100%;height:100%;object-fit:cover;"></div>
+            <div class="carousel-card" style="min-width:340px;height:260px;flex-shrink:0;"><img src="images/portfolio-firepit.jpg" alt="Fire pit" style="width:100%;height:100%;object-fit:cover;"></div>
+            <div class="carousel-card" style="min-width:340px;height:260px;flex-shrink:0;"><img src="images/portfolio-waterfeature.jpg" alt="Water feature" style="width:100%;height:100%;object-fit:cover;"></div>
+            <div class="carousel-card" style="min-width:340px;height:260px;flex-shrink:0;"><img src="images/portfolio-lighting.jpg" alt="Landscape lighting" style="width:100%;height:100%;object-fit:cover;"></div>
+            <div class="carousel-card" style="min-width:340px;height:260px;flex-shrink:0;"><img src="images/portfolio-enhancements.jpg" alt="Landscape enhancements" style="width:100%;height:100%;object-fit:cover;"></div>
+            <div class="carousel-card" style="min-width:340px;height:260px;flex-shrink:0;"><img src="images/portfolio-industrial.jpg" alt="Industrial landscaping" style="width:100%;height:100%;object-fit:cover;"></div>
+            <div class="carousel-card" style="min-width:340px;height:260px;flex-shrink:0;"><img src="images/portfolio-reitz.jpg" alt="Completed project" style="width:100%;height:100%;object-fit:cover;"></div>
+        </div>
+        <style>@keyframes scroll { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }</style>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section" style="padding:100px 0;background:#fff;">
+        <div class="container">
+            <div style="text-align:center;margin-bottom:60px;" class="reveal">
+                <p style="color:#d4a843;font-size:0.8rem;text-transform:uppercase;letter-spacing:0.15em;margin-bottom:12px;">Client Reviews</p>
+                <h2 class="section-title" style="font-family:'Josefin Slab',serif;font-size:2.4rem;color:#141a12;">What Our Clients Say</h2>
+            </div>
+            <div class="testimonial-slider" style="max-width:700px;margin:0 auto;" class="reveal">
+                <div class="testimonial">
+                    <blockquote style="font-family:'Josefin Slab',serif;font-size:1.15rem;color:#333;line-height:1.8;font-style:italic;margin-bottom:20px;">"Cutting Edge has worked our lawn and yard designs for well over a year now. They are helping us turn our space into our outdoor dreams. The team is very personable and will answer any questions."</blockquote>
+                    <p style="font-weight:600;color:#2d8a4e;">T Caywood</p>
+                </div>
+                <div class="testimonial" style="display:none;">
+                    <blockquote style="font-family:'Josefin Slab',serif;font-size:1.15rem;color:#333;line-height:1.8;font-style:italic;margin-bottom:20px;">"The whole team was really wonderful, and we couldn't be more pleased with the results. Philippe is extremely responsive, and the team turned around our project extremely quickly."</blockquote>
+                    <p style="font-weight:600;color:#2d8a4e;">J Kerber</p>
+                </div>
+                <div class="testimonial" style="display:none;">
+                    <blockquote style="font-family:'Josefin Slab',serif;font-size:1.15rem;color:#333;line-height:1.8;font-style:italic;margin-bottom:20px;">"We recently moved to Auburn and are so impressed with the timely manner and quality of your work. This company keeps their word and follows through. If they had stars higher than a 5, we'd give it!"</blockquote>
+                    <p style="font-weight:600;color:#2d8a4e;">The Taylor Family</p>
+                </div>
+                <div class="testimonial" style="display:none;">
+                    <blockquote style="font-family:'Josefin Slab',serif;font-size:1.15rem;color:#333;line-height:1.8;font-style:italic;margin-bottom:20px;">"Cutting Edge has helped for years with our lawn maintenance, seasonal plantings, and weed control. Any issues are easily addressed: the best customer service from the top down!"</blockquote>
+                    <p style="font-weight:600;color:#2d8a4e;">E Waits</p>
+                </div>
+                <div class="testimonial" style="display:none;">
+                    <blockquote style="font-family:'Josefin Slab',serif;font-size:1.15rem;color:#333;line-height:1.8;font-style:italic;margin-bottom:20px;">"From the design, to the install, to the finished product, we couldn't be happier with the results. Everything was done professionally and without any problems. Highly recommend!"</blockquote>
+                    <p style="font-weight:600;color:#2d8a4e;">P Brockwell</p>
+                </div>
+                <div class="testimonial" style="display:none;">
+                    <blockquote style="font-family:'Josefin Slab',serif;font-size:1.15rem;color:#333;line-height:1.8;font-style:italic;margin-bottom:20px;">"My yard was in bad shape. Philippe and his team got it looking awesome! They are great to work with, very professional, and showed up when they said they would."</blockquote>
+                    <p style="font-weight:600;color:#2d8a4e;">R Cobb</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Banner -->
+    <section style="padding:80px 20px;background:linear-gradient(135deg, #1a5e33 0%, #2d8a4e 50%, #1a5e33 100%);text-align:center;">
+        <div class="reveal">
+            <h2 style="font-family:'Josefin Slab',serif;font-size:2.4rem;color:#fff;margin-bottom:16px;">Ready to Transform Your Property?</h2>
+            <p style="color:rgba(255,255,255,0.8);font-size:1rem;max-width:500px;margin:0 auto 32px;line-height:1.7;">Tell us about your project and get a free estimate from our team.</p>
+            <a href="pages/contact.html" class="btn btn-primary" style="padding:16px 36px;background:#d4a843;border-color:#d4a843;color:#141a12;font-weight:700;">Get Your Free Quote</a>
+        </div>
+    </section>
+
+    <!-- Quote Form -->
+    <section class="section" style="padding:100px 0;background:#f8f9fa;">
+        <div class="container">
+            <div style="max-width:700px;margin:0 auto;text-align:center;" class="reveal">
+                <p style="color:#d4a843;font-size:0.8rem;text-transform:uppercase;letter-spacing:0.15em;margin-bottom:12px;">Contact Us</p>
+                <h2 style="font-family:'Josefin Slab',serif;font-size:2.4rem;color:#141a12;margin-bottom:12px;">Request a Quote</h2>
+                <div style="width:50px;height:3px;background:#d4a843;margin:0 auto 40px;"></div>
+                <form id="quote-form" style="text-align:left;">
+                    <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-bottom:20px;">
+                        <div class="form-group">
+                            <label style="display:block;font-size:0.85rem;font-weight:600;color:#333;margin-bottom:6px;">First Name</label>
+                            <input type="text" name="first-name" required style="width:100%;padding:14px 16px;border:1px solid #ddd;border-radius:8px;font-size:0.95rem;font-family:'Work Sans',sans-serif;">
+                        </div>
+                        <div class="form-group">
+                            <label style="display:block;font-size:0.85rem;font-weight:600;color:#333;margin-bottom:6px;">Last Name</label>
+                            <input type="text" name="last-name" required style="width:100%;padding:14px 16px;border:1px solid #ddd;border-radius:8px;font-size:0.95rem;font-family:'Work Sans',sans-serif;">
+                        </div>
+                    </div>
+                    <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-bottom:20px;">
+                        <div class="form-group">
+                            <label style="display:block;font-size:0.85rem;font-weight:600;color:#333;margin-bottom:6px;">Email</label>
+                            <input type="email" name="email" required style="width:100%;padding:14px 16px;border:1px solid #ddd;border-radius:8px;font-size:0.95rem;font-family:'Work Sans',sans-serif;">
+                        </div>
+                        <div class="form-group">
+                            <label style="display:block;font-size:0.85rem;font-weight:600;color:#333;margin-bottom:6px;">Phone</label>
+                            <input type="tel" name="phone" style="width:100%;padding:14px 16px;border:1px solid #ddd;border-radius:8px;font-size:0.95rem;font-family:'Work Sans',sans-serif;">
+                        </div>
+                    </div>
+                    <div class="form-group" style="margin-bottom:20px;">
+                        <label style="display:block;font-size:0.85rem;font-weight:600;color:#333;margin-bottom:6px;">I'm Interested In</label>
+                        <select name="service" style="width:100%;padding:14px 16px;border:1px solid #ddd;border-radius:8px;font-size:0.95rem;font-family:'Work Sans',sans-serif;background:#fff;">
+                            <option value="">Select a service...</option>
+                            <option value="design">Landscape Design</option>
+                            <option value="installation">Landscape Installation</option>
+                            <option value="maintenance">Lawn Maintenance</option>
+                            <option value="hardscapes">Hardscapes &amp; Water Features</option>
+                            <option value="irrigation">Irrigation &amp; Drainage</option>
+                            <option value="weedcontrol">Weed Control &amp; Fertilization</option>
+                        </select>
+                    </div>
+                    <div class="form-group" style="margin-bottom:28px;">
+                        <label style="display:block;font-size:0.85rem;font-weight:600;color:#333;margin-bottom:6px;">Tell Us About Your Project</label>
+                        <textarea name="message" rows="5" required style="width:100%;padding:14px 16px;border:1px solid #ddd;border-radius:8px;font-size:0.95rem;font-family:'Work Sans',sans-serif;resize:vertical;"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="width:100%;padding:16px;font-size:1rem;">Submit Quote Request</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer style="background:#141a12;padding:80px 0 0;">
+        <div style="max-width:1200px;margin:0 auto;padding:0 20px;">
+            <div style="display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:48px;padding-bottom:60px;border-bottom:1px solid rgba(255,255,255,0.08);">
+                <div>
+                    <img src="images/logo.png" alt="Cutting Edge Lawn Service" style="height:50px;margin-bottom:20px;background:transparent !important;">
+                    <p style="color:rgba(255,255,255,0.6);font-size:0.9rem;line-height:1.7;margin-bottom:20px;">Over two decades of experience transforming residential and commercial properties into show-stopping outdoor spaces in Auburn, AL.</p>
+                    <div style="display:flex;gap:12px;">
+                        <a href="https://www.facebook.com/lawnandplay/" target="_blank" style="width:36px;height:36px;border-radius:50%;border:1px solid rgba(255,255,255,0.15);display:flex;align-items:center;justify-content:center;color:rgba(255,255,255,0.6);text-decoration:none;font-size:0.85rem;">f</a>
+                        <a href="https://www.instagram.com/cuttingedgelawnservice/" target="_blank" style="width:36px;height:36px;border-radius:50%;border:1px solid rgba(255,255,255,0.15);display:flex;align-items:center;justify-content:center;color:rgba(255,255,255,0.6);text-decoration:none;font-size:0.85rem;">in</a>
+                    </div>
+                </div>
+                <div>
+                    <h4 style="font-family:'Josefin Slab',serif;font-size:1.1rem;color:#fff;margin-bottom:20px;">Services</h4>
+                    <ul style="list-style:none;padding:0;">
+                        <li style="margin-bottom:10px;"><a href="pages/services.html#design" style="color:rgba(255,255,255,0.5);text-decoration:none;font-size:0.88rem;">Landscape Design</a></li>
+                        <li style="margin-bottom:10px;"><a href="pages/services.html#installation" style="color:rgba(255,255,255,0.5);text-decoration:none;font-size:0.88rem;">Landscape Installation</a></li>
+                        <li style="margin-bottom:10px;"><a href="pages/services.html#maintenance" style="color:rgba(255,255,255,0.5);text-decoration:none;font-size:0.88rem;">Lawn Maintenance</a></li>
+                        <li style="margin-bottom:10px;"><a href="pages/services.html#hardscapes" style="color:rgba(255,255,255,0.5);text-decoration:none;font-size:0.88rem;">Hardscapes &amp; Water Features</a></li>
+                        <li style="margin-bottom:10px;"><a href="pages/services.html#irrigation" style="color:rgba(255,255,255,0.5);text-decoration:none;font-size:0.88rem;">Irrigation &amp; Drainage</a></li>
+                        <li style="margin-bottom:10px;"><a href="pages/services.html#weedcontrol" style="color:rgba(255,255,255,0.5);text-decoration:none;font-size:0.88rem;">Weed Control &amp; Fertilization</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 style="font-family:'Josefin Slab',serif;font-size:1.1rem;color:#fff;margin-bottom:20px;">Company</h4>
+                    <ul style="list-style:none;padding:0;">
+                        <li style="margin-bottom:10px;"><a href="pages/about.html" style="color:rgba(255,255,255,0.5);text-decoration:none;font-size:0.88rem;">About Us</a></li>
+                        <li style="margin-bottom:10px;"><a href="pages/contact.html" style="color:rgba(255,255,255,0.5);text-decoration:none;font-size:0.88rem;">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 style="font-family:'Josefin Slab',serif;font-size:1.1rem;color:#fff;margin-bottom:20px;">Contact</h4>
+                    <p style="color:rgba(255,255,255,0.5);font-size:0.88rem;line-height:1.8;">
+                        <a href="tel:3348268806" style="color:rgba(255,255,255,0.5);text-decoration:none;">334-826-8806</a><br>
+                        <a href="mailto:info@cuttingedgelawn.biz" style="color:rgba(255,255,255,0.5);text-decoration:none;">info@cuttingedgelawn.biz</a><br><br>
+                        6609 Lee Rd 54<br>
+                        Auburn, AL 36830
+                    </p>
+                </div>
+            </div>
+            <div style="padding:24px 0;text-align:center;">
+                <p style="color:rgba(255,255,255,0.3);font-size:0.8rem;">&copy; 2026 Cutting Edge Lawn Service, LLC. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
